@@ -6,12 +6,12 @@ namespace RPS
 {
   public class Player
   {
-    // public string Hand { get; set; }
+    public string Hand { get; set; }
 
     //Constructor
-    public bool Player()
+    public Player(string hand)
     {
-      return false;
+      Hand = hand;
     }
   }
 }
